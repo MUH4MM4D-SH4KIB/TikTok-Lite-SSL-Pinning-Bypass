@@ -13,17 +13,6 @@
 
 This project provides a pre-patched **TikTok Lite APK** with SSL/TLS certificate pinning disabled, enabling security researchers and developers to capture and analyze TikTok Lite's HTTPS traffic using standard MITM proxy tools. Inspect API endpoints, lightweight video feed requests, authentication flows, reward system payloads, and data-efficient content delivery mechanisms used by ByteDance's lightweight variant of TikTok.
 
-### Why Bypass TikTok Lite SSL Pinning?
-
-TikTok Lite is ByteDance's data-efficient, lightweight version of TikTok designed for low-bandwidth regions and entry-level devices. Like the full TikTok app, it enforces strict SSL/TLS certificate pinning to prevent third-party inspection of its network traffic. By using this patched APK, you can:
-
-- **Inspect TikTok Lite API endpoints** — Discover how the lightweight For You feed, search, and video playback are handled with reduced data consumption
-- **Analyze authentication flows** — Understand TikTok Lite login, session management, and token handling
-- **Monitor the reward system** — Examine how TikTok Lite's coin/reward earning mechanism communicates with backend servers
-- **Study data-efficient delivery** — Compare how TikTok Lite optimizes video quality, caching, and CDN requests vs. the full app
-- **Analyze analytics & tracking payloads** — See what telemetry data TikTok Lite collects and transmits
-- **Perform security audits** — Identify potential vulnerabilities in TikTok Lite's mobile API
-
 ### Key Features
 
 - ✅ No root required (also supports rooted devices)
@@ -57,7 +46,7 @@ If this project helped your security research, **please star this repo** — it 
 
 | App | Package | Version | Architecture | Status |
 |-----|---------|---------|--------------|--------|
-| TikTok Lite | `com.zhiliaoapp.musically.go` | **44.1.3** | `arm64-v8a` | ✅ Bypassed |
+| TikTok Lite | `com.zhiliaoapp.musically.go` | **43.2.2** | `arm64-v8a` | ✅ Bypassed |
 
 ---
 
